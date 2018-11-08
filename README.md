@@ -5,7 +5,7 @@ Data Miner exercise general solution description (Python )
 3.	Split data to validation sets (training data -> training and testing samples with known classifier values). Fitted training sample to mainly used models and performed evaluation of models’ predictions (quantified the quality of predictions with AUC ROC scoring metric):
 
 Model name;	Maximum AUC ROC scoring metric values for testing sample of training data	Score difference, %;	Training execution time , hours;
-Logistic regression;	0.63234171;	-27.8%;	0.15
+#a Logistic regression;	0.63234171;	-27.8%;	0.15
 Decision Tree;	0.60548538;	-30.8%;	0.5
 Random Forest;	0.87542711;	0%;	3.3
 k-nearest neighbors (kNN);	Execution exceeded reasonable amount of waiting time while training 	-	>3
