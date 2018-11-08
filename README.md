@@ -1,5 +1,5 @@
 # DeloitteDigital
-Data Miner exercise general solution description (Python, strict deadline of 3 days)
+Data Miner exercise general solution description (Python, strict deadline of day and a half)
 1.	Data was uploaded using standard functionality of Pandas library read_csv, which allows import data without unzipping it.
 2.	Performed visual (DataFrame fuctions head(), describe()) and structural data analysis (DataFrame fuctions shape, info()) to understand that data are ready for processing: there are no empty and text fields. 
 3.	Split data to validation sets (training data -> training and testing samples with known classifier values). Fitted training sample to mainly used models and performed evaluation of models’ predictions (quantified the quality of predictions with AUC ROC scoring metric):
